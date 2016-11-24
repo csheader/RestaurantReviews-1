@@ -105,7 +105,7 @@ namespace CMMI.Controllers.Tests
         {
             controller = new ReviewController(facade.Object);
             var result = controller.Remove(1);
-            Assert.IsInstanceOfType(result, typeof(OkResult));
+            Assert.IsInstanceOfType(result, typeof(OkNegotiatedContentResult<string>));
         }
 
         [TestMethod]
