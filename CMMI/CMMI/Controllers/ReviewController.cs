@@ -121,7 +121,7 @@ namespace CMMI.Controllers
         /// <summary>
         /// Removes a review based upon its Id. 
         /// </summary>
-        /// <remarks></remarks>
+        /// <remarks>Allows a user to delete an existing review based on its Id. </remarks>
         /// <param name="reviewId"></param>
         /// <returns></returns>
         /// <response code="200">The review has been deleted. </response>

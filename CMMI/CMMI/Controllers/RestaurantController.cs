@@ -61,9 +61,9 @@ namespace CMMI.Controllers
         }
 
         /// <summary>
-        /// Returns restaurants within a certain city, zip code or a radius of certain coordinates. 
+        /// Returns restaurants within a certain city or zip code. 
         /// </summary>
-        /// <remarks></remarks>
+        /// <remarks>Accepts a restaurant request (comprised of RestaurantId, ZipCode and / or City) through query string parameters. </remarks>
         /// <param name="request"></param>
         /// <returns>List of restaurants within a certain area.</returns>
         /// <response code="200">The request was successful. </response>
